@@ -7,14 +7,16 @@ import Two from './pages/Two';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={One}/>
-        <Route exact path="/two" component={Two} />
-      </Switch>
-      <Link className="App-link" to="/one"> One </Link>
-      <Link className="App-link" to="/two"> Two </Link>
-    </Router>
+    <div className="App-header">
+      <Router>
+        <Switch>
+          <Route exact path="/" component={One}/>
+          <Route exact path="/two" component={Two} />
+        </Switch>
+        <Link className="App-link" to="/"> One </Link>
+        <Link className="App-link" to="/two"> Two </Link>
+      </Router>
+    </div>
   );
 }
 

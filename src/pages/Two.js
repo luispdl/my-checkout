@@ -3,7 +3,7 @@ import logo from '../logo.svg';
 
 function Two() {
   return (
-    <div className="Two">
+    <div className="Two App-router">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Page Two
